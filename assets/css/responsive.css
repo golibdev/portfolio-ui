@@ -1,8 +1,4 @@
 @media only screen and (max-width: 768px) {
-   body {
-      overflow-x: hidden !important;
-   }
-
    .main-header .main-nav {
       position: absolute !important;
       top: 70px;
@@ -80,26 +76,26 @@
    .works-cards .works-card .year-and-category {
       margin-bottom: 24px !important;
    }
-}
-
-@media only screen and (max-width: 576px) {
-   .posts .posts-header {
-      justify-content: center;
-   }
-
-   .posts .posts-header .posts-header__title {
-      font-size: 18px;
-      text-align: center;
-   }
-
-   .posts .posts-header .posts-header__link {
-      display: none;
-   }
 
    .posts .posts-cards {
       grid-template-columns: 100% !important;
       column-gap: 0 !important;
       row-gap: 20px !important;
+   }
+}
+
+@media only screen and (max-width: 576px) {
+   .posts .posts-header {
+      justify-content: center !important;
+   }
+
+   .posts .posts-header .posts-header__title {
+      font-size: 18px;
+      text-align: center !important;
+   }
+
+   .posts .posts-header .posts-header__link {
+      display: none !important;
    }
 
    .posts .posts-card .posts-card__title {

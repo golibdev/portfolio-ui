@@ -6,6 +6,10 @@
    font-family: 'Heebo', sans-serif;
 }
 
+body {
+   overflow-x: hidden !important;
+}
+
 html {
    scroll-behavior: smooth;
 }
