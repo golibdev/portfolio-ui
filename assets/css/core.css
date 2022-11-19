@@ -6,8 +6,11 @@
    font-family: 'Heebo', sans-serif;
 }
 html {
-   overflow-x: hidden !important;
    scroll-behavior: smooth;
+}
+
+main {
+   overflow-x: hidden !important;
 }
 
 a {
