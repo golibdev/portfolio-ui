@@ -27,6 +27,8 @@
    <link rel="stylesheet" href="./assets/css/footer.css">
    <link rel="stylesheet" href="./assets/css/posts.css">
 
+   <!-- AOS CSS -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <title>Portfolio</title>
 </head>
 <body>
@@ -51,7 +53,7 @@
       <!-- banner section start -->
       <section class="banner">
          <div class="container">
-            <div class="about-user">
+            <div class="about-user" data-aos="zoom-in" data-aos-duration="1500">
                <h1 class="user-info">
                   Hi, I am John, <br> Creative Technologist
                </h1>
@@ -62,7 +64,7 @@
                   Download Resume
                </a>
             </div>
-            <div class="user-image">
+            <div class="user-image" data-aos="zoom-in" data-aos-duration="1500">
                <img src="./assets/image/user.jpg" alt="user">
             </div>
          </div>
@@ -77,7 +79,7 @@
                <a href="#" class="posts-header__link">View all</a>
             </div>
             <div class="posts-cards">
-               <div class="posts-card">
+               <div class="posts-card" data-aos="zoom-in-right" data-aos-duration="1500">
                   <h3 class="posts-card__title">Making a design system from scratch</h3>
                   <div class="time-and-category">
                      <time class="posts-time">12 Feb 2020</time>
@@ -88,7 +90,7 @@
                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                   </p>
                </div>
-               <div class="posts-card">
+               <div class="posts-card" data-aos="zoom-in-left" data-aos-duration="1500">
                   <h3 class="posts-card__title">Making a design system from scratch</h3>
                   <div class="time-and-category">
                      <time class="posts-time">12 Feb 2020</time>
@@ -113,7 +115,7 @@
                </p>
             </div>
             <div class="works-cards">
-               <div class="works-card">
+               <div class="works-card" data-aos="zoom-in" data-aos-duration="1500">
                   <div class="works-card__image">
                      <img src="./assets/image/posts1.jpg" alt="posts-1">
                   </div>
@@ -132,8 +134,8 @@
                      </p>
                   </div>
                </div>
-               <div class="line"></div>
-               <div class="works-card">
+               <div class="line" data-aos="zoom-in" data-aos-duration="1500"></div>
+               <div class="works-card" data-aos="zoom-in" data-aos-duration="1500">
                   <div class="works-card__image">
                      <img src="./assets/image/posts2.jpg" alt="posts-2">
                   </div>
@@ -152,8 +154,8 @@
                      </p>
                   </div>
                </div>
-               <div class="line"></div>
-               <div class="works-card">
+               <div class="line" data-aos="zoom-in" data-aos-duration="1500"></div>
+               <div class="works-card" data-aos="zoom-in" data-aos-duration="1500">
                   <div class="works-card__image">
                      <img src="./assets/image/posts3.jpg" alt="posts-1">
                   </div>
@@ -172,7 +174,7 @@
                      </p>
                   </div>
                </div>
-               <div class="line"></div>
+               <div class="line" data-aos="zoom-in" data-aos-duration="1500"></div>
             </div>
          </div>
       </section>
@@ -202,5 +204,13 @@
       </footer>
       <!-- footer section end -->
    </main>
+
+   <!-- AOS JS -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+   <!-- AOS CUSTOM JS -->
+   <script>
+      AOS.init();
+   </script>
 </body>
 </html>
