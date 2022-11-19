@@ -1,6 +1,10 @@
 /* Main header styles */
 .main-header {
+   position: sticky;
    padding: 27px 0;
+   top: 0;
+   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+   background-color: #fff;
 }
 
 .main-header .container-header {
