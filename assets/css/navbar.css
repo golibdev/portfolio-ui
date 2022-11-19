@@ -1,0 +1,23 @@
+/* Main header styles */
+.main-header {
+   padding: 27px 0;
+}
+
+.main-header .container-header {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+.main-header .main-nav .nav-link {
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 30px;
+   margin-right: 33px;
+   text-transform: capitalize;
+   color: var(--black-color);
+}
+
+.main-header .main-nav .nav-link:last-child {
+   margin-right: 0;
+}

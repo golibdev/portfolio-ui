@@ -1,0 +1,44 @@
+/* umumiy stillar */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Heebo', sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+.burger-btn {
+   display: none;
+}
+
+.burger-btn div {
+   height: 2px;
+   width: 25px;
+   background-color: var(--black-color);
+}
+
+.burger-btn div:not(:last-child) {
+   margin-bottom: 5px;
+}
+
+.container-header {
+   max-width: 1320px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 30px;
+}
+
+.container {
+   max-width: 1320px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 30px;
+}
+
+.line {
+   border: 1px solid #E0E0E0;
+   margin-bottom: 30px;
+}

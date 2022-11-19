@@ -1,0 +1,25 @@
+/* footer styles */
+.footer {
+   padding: 51px 0 54px 0;
+   text-align: center;
+}
+
+.footer .social-icons {
+   margin-bottom: 26px;
+}
+
+.footer .social-icons .social-icons__link {
+   font-size: 30px;
+   margin-right: 35px;
+   color: var(--dark-blue);
+}
+
+.footer .social-icons .social-icons__link:last-child {
+   margin-right: 0;
+}
+
+.footer .copyright {
+   font-size: 14px;
+   line-height: 20px;
+   color: var(--dark-blue);
+}

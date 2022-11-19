@@ -1,0 +1,60 @@
+/* Posts styles */
+.posts {
+   padding: 7px 0 32px 0;
+   background-color: #EDF7FA;
+}
+
+.posts .posts-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.posts .posts-header .posts-header__title {
+   font-size: 22px;
+   line-height: 60px;
+   color: var(--dark-blue);
+}
+
+.posts .posts-header .posts-header__link {
+   color: #00A8CC;
+}
+
+.posts .posts-cards {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 20px;
+   color: var(--dark-blue);
+}
+
+.posts .posts-cards .posts-card {
+   background-color: var(--white-color);
+   padding: 24px;
+   box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+   border-radius: 4px;
+}
+
+.posts .posts-card .posts-card__title {
+   font-size: 26px;
+   line-height: 38px;
+   margin-bottom: 17px;
+}
+
+.posts .posts-card .time-and-category {
+   margin-bottom: 11px;
+   font-size: 18px;
+}
+
+.posts .posts-card .posts-time {
+   line-height: 26px;
+}
+
+.posts .posts-card .posts-line {
+   margin: 0 15px;
+}
+
+.posts .posts-card .posts-description {
+   text-align: justify;
+   line-height: 24px;
+}
+

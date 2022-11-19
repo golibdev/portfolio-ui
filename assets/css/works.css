@@ -1,0 +1,60 @@
+/* Works section style */
+.works {
+   padding: 17px 0 83px 0;
+}
+
+.works .works-header__title {
+   font-size: 22px;
+   line-height: 60px;
+   color: var(--dark-blue);
+   margin-bottom: 22px;
+}
+
+.works-cards .works-card {
+   display: flex;
+   margin-bottom: 15px;
+}
+
+.works-cards .works-card .works-card__image {
+   margin-right: 18px;
+}
+
+.works-cards .works-card .works-card__title {
+   font-size: 30px;
+   line-height: 44px;
+   color: var(--dark-blue);
+   font-weight: 700;
+   margin-bottom: 2px;
+}
+
+.works-cards .works-card .year-and-category {
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+}
+
+.works-cards .works-card .year {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-weight: 900;
+   line-height: 60px;
+   color: var(--white-color);
+   width: 62px;
+   height: 25px;
+   background-color: var(--dark-blue);
+   border-radius: 16px;
+   margin-right: 26px;
+}
+
+.works-cards .works-card .category {
+   font-size: 20px;
+   line-height: 30px;
+   color: #8695A4;
+}
+
+.works-cards .works-card .works-card__description {
+   line-height: 24px;
+   color: var(--dark-blue);
+}

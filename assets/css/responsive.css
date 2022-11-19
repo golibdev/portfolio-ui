@@ -1,0 +1,94 @@
+@media only screen and (max-width: 768px) {
+   .main-header .main-nav {
+      display: none;
+   }
+
+   .burger-btn {
+      display: block !important;
+   }
+
+   .banner {
+      margin: 33px 0 !important;
+   }
+
+   .banner .container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .banner .about-user {
+      text-align: center;
+      order: 2 !important;
+   }
+
+   .banner .user-info {
+      font-size: 32px !important;
+      line-height: 40px !important;
+      margin-bottom: 21px !important;
+   }
+
+   .banner .user-image {
+      order: 1 !important;
+   }
+
+   .banner .user-info__description {
+      width: auto !important;
+      margin-bottom: 27px;
+   }
+
+   .works .works-header__title {
+      font-size: 18px !important;
+      line-height: 60px !important;
+      text-align: center;
+   }
+
+   .works-cards .works-card .works-card__title {
+      font-size: 24px !important;
+      line-height: 30px !important;
+      margin-bottom: 16px !important;
+   }
+
+   .works-cards .works-card .year-and-category {
+      margin-bottom: 24px !important;
+   }
+}
+
+@media only screen and (max-width: 576px) {
+   .posts .posts-header {
+      justify-content: center;
+   }
+
+   .posts .posts-header .posts-header__title {
+      font-size: 18px;
+      text-align: center;
+   }
+
+   .posts .posts-header .posts-header__link {
+      display: none;
+   }
+
+   .posts .posts-cards {
+      grid-template-columns: 100% !important;
+      column-gap: 0 !important;
+      row-gap: 20px !important;
+   }
+
+   .posts .posts-card .posts-card__title {
+      font-size: 22px !important;
+      line-height: 30px !important;
+      margin-bottom: 12px !important;
+   }
+
+   .works-cards .works-card {
+      flex-direction: column;
+   }
+
+   .works-cards .works-card .works-card__image {
+      margin-right: 0 !important;
+   }
+
+   .works-cards .works-card img {
+      width: 100%;
+   }
+}
