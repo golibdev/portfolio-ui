@@ -5,12 +5,8 @@
    box-sizing: border-box;
    font-family: 'Heebo', sans-serif;
 }
-
-body {
-   overflow-x: hidden !important;
-}
-
 html {
+   overflow-x: hidden !important;
    scroll-behavior: smooth;
 }
 

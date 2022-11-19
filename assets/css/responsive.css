@@ -76,6 +76,19 @@
       column-gap: 0 !important;
       row-gap: 20px !important;
    }
+
+   .works-cards .works-card {
+      flex-direction: column;
+   }
+
+   .works-cards .works-card img {
+      width: 100%;
+   }
+
+   .works-cards .works-card .works-card__image {
+      margin-right: 0 !important;
+      margin-bottom: 15px;
+   }
 }
 
 @media only screen and (max-width: 576px) {
@@ -84,7 +97,7 @@
       line-height: 60px !important;
       text-align: center;
    }
-   
+
    .posts .posts-header {
       justify-content: center !important;
    }
@@ -102,17 +115,5 @@
       font-size: 22px !important;
       line-height: 30px !important;
       margin-bottom: 12px !important;
-   }
-
-   .works-cards .works-card {
-      flex-direction: column;
-   }
-
-   .works-cards .works-card .works-card__image {
-      margin-right: 0 !important;
-   }
-
-   .works-cards .works-card img {
-      width: 100%;
    }
 }
