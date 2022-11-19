@@ -1,9 +1,37 @@
 @media only screen and (max-width: 768px) {
+   body {
+      overflow-x: hidden;
+   }
+
    .main-header .main-nav {
-      display: none;
+      position: absolute !important;
+      top: 70px;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      transform: translateX(100%);
+      transition: transform 0.5s ease;
+   }
+
+   .main-nav.active {
+      transform: translate(0);
+   }
+
+   .main-header .main-nav .nav-link {
+      margin-right: 0 !important;
+   }
+
+   .main-header .main-nav .nav-link:not(:last-child) {
+      margin-bottom: 15px;
    }
 
    .burger-btn {
+      cursor: pointer;
       display: block !important;
    }
 
